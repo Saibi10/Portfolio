@@ -4,9 +4,10 @@ import {
   creator,
   mobile,
   web,
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
+  github,
+  menu,
+  close,
+  bazaar,
   gameaccounts,
   ecommerceApp,
   pacman,
@@ -14,7 +15,6 @@ import {
   tourismSystem,
   unityGame,
   wordChainGame,
-  bazaar,
 } from '../assets'
 
 export const navLinks = [
@@ -144,33 +144,6 @@ const experiences = [
       "Single Source Shortest Path using Parallel Distribution Computing Concepts",
       "Discord Bot for managing Loans and payments (Active for all my friends)"
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
   },
 ];
 
@@ -353,4 +326,4 @@ const projects = [
   }
 ];
 
-export { services, experiences, testimonials, projects };
+export { services, experiences, projects };
